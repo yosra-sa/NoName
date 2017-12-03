@@ -7,13 +7,13 @@ import { ParticipantsPage } from '../pages/participants/participants'
 import { LoginPage } from '../pages/login/login'
 import { HomePage } from '../pages/home/home';
 import{MentorsPage} from'../pages/mentors/mentors';
-
+import{MenuPage} from '../pages/menu/menu';
 import{EquipePage} from '../pages/equipe/equipe'
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = MentorsPage;
+  rootPage:any = MenuPage;
   pages: Array<{title:string, component:any}>;
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

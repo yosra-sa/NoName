@@ -9,8 +9,8 @@ import { HomePage } from '../pages/home/home';
 import { ParticipantsPage } from '../pages/participants/participants'
 import { LoginPage } from '../pages/login/login'
 import{MentorsPage} from'../pages/mentors/mentors';
-
-
+import{MenuPage} from'../pages/menu/menu';
+import{EquipePage} from'../pages/equipe/equipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,9 @@ import{MentorsPage} from'../pages/mentors/mentors';
     HomePage,
     ParticipantsPage,
     LoginPage,
-    MentorsPage
+    MentorsPage,
+    EquipePage,
+    MenuPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,9 @@ import{MentorsPage} from'../pages/mentors/mentors';
     HomePage,
     LoginPage,
     MentorsPage,
-    ParticipantsPage
+    EquipePage,
+    ParticipantsPage,
+    MenuPage
   ],
   providers: [
     StatusBar,
