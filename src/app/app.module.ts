@@ -7,7 +7,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ParticipantsPage } from '../pages/participants/participants'
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginPage } from '../pages/login/login'
+
 
 
 
@@ -15,11 +16,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   declarations: [
     MyApp,
     HomePage,
-    ParticipantsPage
+    ParticipantsPage,
+    LoginPage
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
     
     IonicModule.forRoot(MyApp
     ),
@@ -29,6 +30,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   entryComponents: [
     MyApp,
     HomePage,
+    LoginPage,
     ParticipantsPage
   ],
   providers: [

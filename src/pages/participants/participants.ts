@@ -23,6 +23,9 @@ export class ParticipantsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+  isPaid(): any {
+    return { 'background-color':'lightpink' };
+}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ParticipantsPage');
