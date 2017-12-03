@@ -21,12 +21,9 @@
           </ion-thumbnail>
           <h2>My Neighbor Totoro</h2>
           <p>Hayao Miyazaki • 1988</p>
-          <list>
+          <list [height]="itemHeight" [expanded]="item.expanded">
               <ion-item>
-                <h2>Hello Everyone</h2>
-              </ion-item>
-              <ion-item>
-                <h2>Hello Everyone</h2>
+                <ion-input value="Write your note here" ></ion-input>
               </ion-item>
           </list>
           <button ion-button clear item-end>View</button>
