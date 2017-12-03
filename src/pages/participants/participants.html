@@ -1,0 +1,77 @@
+<ion-header>
+  
+
+  <ion-navbar>
+     
+    <ion-title>Participants</ion-title>
+    <ion-buttons end>
+        <button ion-button icon-only (click)="toggleSearchbar()" animated>
+          <ion-icon name="search"></ion-icon>
+        </button>
+      </ion-buttons>
+   
+  </ion-navbar>
+
+    
+
+ 
+</ion-header>
+
+<ion-content class="outer-content">
+    <ion-searchbar *ngIf="showSearchbar"></ion-searchbar>
+  <ion-list>
+    <ion-list-header>
+      Yesterday
+    </ion-list-header>
+
+    <ion-item-sliding>
+      <ion-item>
+          <ion-note item-end>3:43 pm</ion-note>
+        <ion-avatar item-start>
+          <img src="https://previews.123rf.com/images/kritchanut/kritchanut1407/kritchanut140700337/29898197-Woman-avatar-profile-picture-on-light-gray-background-vector-icon-Stock-Vector.jpg">
+        </ion-avatar>
+        <h2>Yosra Saddoud</h2>
+        <p>ENIS</p>
+      </ion-item>
+      <ion-item-options>
+        
+        <button ion-button color="primary" icon-start>
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button ion-button color="secondary" icon-start>
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+
+    <ion-item-sliding>
+      <ion-item>
+          <ion-note item-end>5:43 pm</ion-note>
+        <ion-avatar item-start>
+          <img src="http://s-ak.buzzfed.com/static/enhanced/terminal01/2011/2/15/13/enhanced-buzz-16849-1297795426-10.jpg">
+        </ion-avatar>
+        <h2>Super Mario</h2>
+        <p>IIT</p>
+      </ion-item>
+      <ion-item-options>
+        
+        <button ion-button color="primary" icon-start>
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button ion-button color="secondary" icon-start>
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+  
+
+  </ion-list>
+
+   
+</ion-content>
