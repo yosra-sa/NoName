@@ -3,14 +3,17 @@ import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { ParticipantsPage } from '../pages/participants/participants'
+import { LoginPage } from '../pages/login/login'
 import { HomePage } from '../pages/home/home';
-import {LoginPage} from '../pages/login/login';
-import {ChoicePage} from '../pages/choice/choice';
+import{MentorsPage} from'../pages/mentors/mentors';
+
+import{EquipePage} from '../pages/equipe/equipe'
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = ChoicePage;
+  rootPage:any =ParticipantsPage;
   pages: Array<{title:string, component:any}>;
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

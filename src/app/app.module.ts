@@ -6,25 +6,34 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import {LoginPage} from '../pages/login/login';
-import {ChoicePage} from '../pages/choice/choice';
+import { ParticipantsPage } from '../pages/participants/participants'
+import { LoginPage } from '../pages/login/login'
+import{MentorsPage} from'../pages/mentors/mentors';
+
+
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
+    ParticipantsPage,
     LoginPage,
-    ChoicePage
+    MentorsPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    
+    IonicModule.forRoot(MyApp
+    ),
+
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
     LoginPage,
-    ChoicePage
+    MentorsPage,
+    ParticipantsPage
   ],
   providers: [
     StatusBar,
