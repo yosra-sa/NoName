@@ -1,8 +1,7 @@
 page-login {
     .container
     {
-        margin-left: 20px;
-        margin-right: auto;
+        margin: center;
     }
     .form-signin
     {
@@ -46,6 +45,10 @@ page-login {
         margin-bottom: 10px;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
+    }
+    .col-sm-6 col-md-4 col-md-offset-4
+    {
+        margin: auto;
     }
     .account-wall
     {

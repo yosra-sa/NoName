@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import{ParticipantsPage}from '../participants/participants';
 import{MentorsPage}from'../mentors/mentors';
+import { EvaluationPage } from '../evaluation/evaluation';
+import{EquipePage} from'../equipe/equipe';
 /**
  * Generated class for the MenuPage page.
  *
@@ -37,11 +39,18 @@ export class MenuPage {
     });
   }
   loadTeams(){
+    this.navCtrl.push(EquipePage,{
+    val:'vjfvfj'
+    });
+  }
+  loadMentors(){
     this.navCtrl.push(MentorsPage,{
     val:'vjfvfj'
     });
   }
-  logout(){
-    console.log('fff');
+  loadEvaluation(){
+    this.navCtrl.push(EvaluationPage,{
+      val:'erfj'
+    });
   }
 }

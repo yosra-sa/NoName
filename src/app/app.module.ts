@@ -11,8 +11,9 @@ import { LoginPage } from '../pages/login/login'
 import{MentorsPage} from'../pages/mentors/mentors';
 import{MenuPage} from'../pages/menu/menu';
 import{EquipePage} from'../pages/equipe/equipe';
-import{UserFormPage} from '../pages/user-form/user-form';
-
+import{EvaluationPage} from'../pages/evaluation/evaluation';
+import { ListComponent } from '../components/list/list';
+import{UserFormPage} from'../pages/user-form/user-form';
 @NgModule({
   declarations: [
     MyApp,
@@ -22,6 +23,8 @@ import{UserFormPage} from '../pages/user-form/user-form';
     MentorsPage,
     EquipePage,
     MenuPage,
+    EvaluationPage,
+    ListComponent,
     UserFormPage
   ],
   imports: [
@@ -40,7 +43,9 @@ import{UserFormPage} from '../pages/user-form/user-form';
     EquipePage,
     ParticipantsPage,
     MenuPage,
-    UserFormPage
+    UserFormPage,
+    EvaluationPage,
+    ListComponent
   ],
   providers: [
     StatusBar,
