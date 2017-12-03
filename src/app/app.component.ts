@@ -18,7 +18,7 @@ import{StatPage} from'../pages/stat/stat';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = MenuPage;
+  rootPage:any = HomePage;
   pages: Array<{title:string, component:any}>;
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

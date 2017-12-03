@@ -26,6 +26,9 @@ export class ParticipantsPage {
   isPaid(): any {
     return { 'background-color':'lightpink' };
 }
+notPaid(): any {
+  return { 'background-color':'lightgreen' };
+}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ParticipantsPage');

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { MenuPage } from '../menu/menu';
 
 /**
  * Generated class for the LoginPage page.
@@ -16,6 +17,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class LoginPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+  loadMenu(){
+    this.navCtrl.push(MenuPage,{
+    val:'vjfvfj'
+    });
   }
 
   ionViewDidLoad() {
