@@ -12,6 +12,8 @@ import{EquipePage} from '../pages/equipe/equipe';
 import{EvaluationPage} from '../pages/evaluation/evaluation';
 import{ListComponent} from '../components/list/list';
 import{UserFormPage} from'../pages/user-form/user-form';
+import{StatPage} from'../pages/stat/stat';
+
 @Component({
   templateUrl: 'app.html'
 })

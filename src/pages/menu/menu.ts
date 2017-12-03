@@ -4,6 +4,8 @@ import{ParticipantsPage}from '../participants/participants';
 import{MentorsPage}from'../mentors/mentors';
 import { EvaluationPage } from '../evaluation/evaluation';
 import{EquipePage} from'../equipe/equipe';
+import{StatPage} from'../stat/stat';
+import{HomePage} from'../home/home';
 /**
  * Generated class for the MenuPage page.
  *
@@ -24,7 +26,10 @@ export class MenuPage {
   items=[
     'Participants',
     'Teams',
-    'Evaluation'
+    'Evaluation',
+    'Mentors',
+    'Stat'
+
   ];
   load(item: string){
     
@@ -52,5 +57,16 @@ export class MenuPage {
     this.navCtrl.push(EvaluationPage,{
       val:'erfj'
     });
+  }
+  loadStat(){
+    this.navCtrl.push(StatPage,{
+      val:'erfj'
+    });
+  }
+  logout(){
+    this.navCtrl.push(HomePage,{
+      val:'erfj'
+    });
+
   }
 }

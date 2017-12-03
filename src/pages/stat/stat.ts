@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the UserFormPage page.
+ * Generated class for the StatPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,22 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-user-form',
-  templateUrl: 'user-form.html',
-  
+  selector: 'page-stat',
+  templateUrl: 'stat.html',
 })
-export class UserFormPage {
+export class StatPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad UserFormPage');
+    console.log('ionViewDidLoad StatPage');
   }
-  todo = {}
-  name={}
-  private user:any;
-  logForm() {
-    console.log(this.todo)
-  }
+
 }

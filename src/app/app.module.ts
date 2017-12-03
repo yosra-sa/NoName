@@ -14,6 +14,8 @@ import{EquipePage} from'../pages/equipe/equipe';
 import{EvaluationPage} from'../pages/evaluation/evaluation';
 import { ListComponent } from '../components/list/list';
 import{UserFormPage} from'../pages/user-form/user-form';
+import{StatPage} from'../pages/stat/stat';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -25,7 +27,8 @@ import{UserFormPage} from'../pages/user-form/user-form';
     MenuPage,
     EvaluationPage,
     ListComponent,
-    UserFormPage
+    UserFormPage,
+    StatPage
   ],
   imports: [
     BrowserModule,
@@ -45,7 +48,8 @@ import{UserFormPage} from'../pages/user-form/user-form';
     MenuPage,
     UserFormPage,
     EvaluationPage,
-    ListComponent
+    ListComponent,
+    StatPage
   ],
   providers: [
     StatusBar,
