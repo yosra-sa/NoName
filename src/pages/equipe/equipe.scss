@@ -1,0 +1,23 @@
+page-equipe {
+    ion-card.cards-list-demo ion-card-header {
+        color: map-get($colors, primary);
+      }
+      #ionCardHeader1 {
+        background-color: rgba(53, 116, 168, 0.377);
+    }
+    #ionCardHeader2{
+        background-color: rgb(5, 1, 26);
+    }
+    #ionCardHeader3{
+        background-color: rgb(129, 8, 54);
+    }
+    #ionCardHeader4{
+        background-color: rgb(129, 8, 54);
+    }
+    #ionCardHeader5{
+        background-color: rgba(189, 157, 169, 0.863);
+    }
+    #ionCardHeader6{
+        background-color: rgba(157, 111, 184, 0.411);
+    }
+}
