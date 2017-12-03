@@ -7,9 +7,10 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>menu</ion-title>
- 
-  </ion-navbar>
+    <ion-title style="float:left">menu </ion-title>
+    <ion-title style="float: right"><button ion-button color="light"(click)='logout()'>logout</button></ion-title>
+    
+</ion-navbar>
 
 </ion-header>
 
@@ -19,5 +20,7 @@
         <ion-item text-center ><button ion-button color="light"(click)='loadParticipant()'col-6 >Participant</button></ion-item>
         <ion-item text-center> <button ion-button color="light"(click)='loadTeams()' col-6>Teams</button></ion-item>
           <ion-item text-center><button ion-button color="light"(click)='loadEvaluation()' col-6>Evaluation</button></ion-item>
-      </ion-list>
+          <ion-item text-center><button ion-button color="light"(click)='loadMentors()' col-6>Mentors</button></ion-item>
+          
+        </ion-list>
 </ion-content>

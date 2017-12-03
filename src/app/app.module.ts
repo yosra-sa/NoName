@@ -13,6 +13,7 @@ import{MenuPage} from'../pages/menu/menu';
 import{EquipePage} from'../pages/equipe/equipe';
 import{EvaluationPage} from'../pages/evaluation/evaluation';
 import { ListComponent } from '../components/list/list';
+import{UserFormPage} from'../pages/user-form/user-form';
 @NgModule({
   declarations: [
     MyApp,
@@ -23,7 +24,8 @@ import { ListComponent } from '../components/list/list';
     EquipePage,
     MenuPage,
     EvaluationPage,
-    ListComponent
+    ListComponent,
+    UserFormPage
   ],
   imports: [
     BrowserModule,
@@ -41,6 +43,7 @@ import { ListComponent } from '../components/list/list';
     EquipePage,
     ParticipantsPage,
     MenuPage,
+    UserFormPage,
     EvaluationPage,
     ListComponent
   ],
