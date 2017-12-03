@@ -11,6 +11,7 @@ import { LoginPage } from '../pages/login/login'
 import{MentorsPage} from'../pages/mentors/mentors';
 import{MenuPage} from'../pages/menu/menu';
 import{EquipePage} from'../pages/equipe/equipe';
+import{UserFormPage} from '../pages/user-form/user-form';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import{EquipePage} from'../pages/equipe/equipe';
     LoginPage,
     MentorsPage,
     EquipePage,
-    MenuPage
+    MenuPage,
+    UserFormPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import{EquipePage} from'../pages/equipe/equipe';
     MentorsPage,
     EquipePage,
     ParticipantsPage,
-    MenuPage
+    MenuPage,
+    UserFormPage
   ],
   providers: [
     StatusBar,

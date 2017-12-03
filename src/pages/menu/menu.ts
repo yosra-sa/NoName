@@ -41,4 +41,7 @@ export class MenuPage {
     val:'vjfvfj'
     });
   }
+  logout(){
+    console.log('fff');
+  }
 }

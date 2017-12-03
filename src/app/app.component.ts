@@ -9,6 +9,8 @@ import { HomePage } from '../pages/home/home';
 import{MentorsPage} from'../pages/mentors/mentors';
 import{MenuPage} from '../pages/menu/menu';
 import{EquipePage} from '../pages/equipe/equipe'
+import{UserFormPage} from '../pages/user-form/user-form';
+
 @Component({
   templateUrl: 'app.html'
 })
